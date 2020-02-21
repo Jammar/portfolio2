@@ -7,7 +7,7 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
+// import { useStaticQuery, graphql } from "gatsby"
 
 // import MainMenu from "./MainMenu"
 import "./normalize.css"
@@ -15,15 +15,15 @@ import "./layout.css"
 import "./media.css"
 
 const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
+  // const data = useStaticQuery(graphql`
+  //   query SiteTitleQuery {
+  //     site {
+  //       siteMetadata {
+  //         title
+  //       }
+  //     }
+  //   }
+  // `)
 
   return (
     <>
