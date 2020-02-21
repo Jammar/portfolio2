@@ -29,6 +29,7 @@ const IndexPage = () => (
     <span className="ingress">
       A Bachelor of Computer Science with <span>a focus on interaction design</span>.
     </span>
+    < br/><br/>
     <p>
       I like to think, discuss and criticise UX as well as usability and accessability. But I also really like to code.
       Welcome to my simple page!
