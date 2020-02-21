@@ -5,7 +5,7 @@ import { MdEmail } from 'react-icons/md';
 class Socials extends React.Component {
     render() {
         return (
-            <div id="socials">
+            <div className="socials">
                 <ul className="icons">
                     <li>
                         <a href="https://github.com/Jammar">

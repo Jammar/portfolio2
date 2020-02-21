@@ -1,5 +1,3 @@
-@import "./normalize.css";
-
 :root {
   --header-bg-color: var(--one-colour);
   --secon-bg-color: var(--one-colour); 
@@ -8,6 +6,7 @@
   --main-h1-color: black;
   --ahover-color: #b56969;
   --main-h2-color: black;
+  --main-h3-color: rgb(33, 41, 54);
 }
 
 main {
@@ -17,16 +16,30 @@ main {
 .content {
   font-family: "Goudy Old Style";
   width: 70%;
-  max-width: 500px;
+  max-width: 600px;
   margin: 0 auto;
   font-size: 1.3rem;
+}
+
+.content ul{
+  padding-inline-start: 20px;
+}
+
+#row {
+  display: flex;
+}
+
+.column {
+  padding-left: 25px;
+  padding-right: 25px;
+  flex: 50%;
 }
 
 .mainmenu {
   text-align: center;
   text-transform: uppercase;
   font-family: "Shree Devanagari 714";
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   padding: 0;
   margin: 0;
 }
@@ -34,6 +47,19 @@ main {
 .navbar {
   padding: 50px 0 0 15%;
   letter-spacing: 1px;
+}
+
+.socials {
+  width: 20%;
+  margin: 0 auto;
+}
+
+.projects h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Shree Devanagari 714";
+  font-size: 1.4rem;
+  font-weight: 100;
 }
 
 .mainmenu ul, .mainmenu li, a:hover, a:visited, a:link, a:active {
@@ -48,7 +74,7 @@ main {
   margin-bottom: 35px;
 }
 
-.navbar ul, .navbar li{
+p a, .navbar ul, .navbar li{
   display: inline;
   padding: 0px 15px 0px 0px;
   font-family: "Eurostile";
@@ -56,56 +82,12 @@ main {
   font-size: 1rem;
 }
 
-span {
-  color: var(--span-color);
-}
-/* 
-footer {
-  margin-left: var(--header-width);
-  position: fixed;
-  bottom: 0;
-} */
-
-/* ul {
-  padding-inline-start: 20px;
-} */
-
-.navitem {
-  text-transform: uppercase;
-  font-family: Roboto;
-  display: flex;
-  flex-direction: column;
-}
-
-.navitem li, ul.navitem, ul.icons {
-    padding: 0;
-    line-height: 2;
-}
-
-.navitem li, ul.navitem{
-  font-size: 1.3rem;
-}
-
-.navitem a:hover, a:visited, a:link, a:active {
-    text-decoration: none;
-    border-bottom: none;
+span.ingress {
+  font-style: italic;
 }
 
 .navbar .menuactive {
   text-decoration: underline;
-}
-
-/* Menu marker on active menu-choice */
-.navitem .menuactive:before {
-  content:"";
-  display:block;
-  width:0;
-  border:5px solid #22264b;
-  border-color: transparent  transparent transparent #22264b;
-  position:absolute;
-  top:30%;
-  left:0%;
-  margin-left:-10px;
 }
 
 .icons {
@@ -113,17 +95,14 @@ footer {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  font-size: 2rem;
 }
 
 .icons a, u, .icons li, .navitem > li {
   display: inline-block;
   padding: 0px;
   border-bottom: none;
-}
-
-.inner {
-  text-align: right;
 }
 
 a {
@@ -134,21 +113,20 @@ a:hover{
   color: var(--ahover-color);
 }
 
-.container>p>a {
-  text-decoration: underline;
-}
-
-.container>p>a:hover{
-  text-decoration: none;
+.content a:hover{
+  color: var(--header-nav-color);
+  background-color: var(--ahover-color);
 }
 
 .avatar {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  margin-bottom: 20px;
+  width: 250px;
   height: auto;
-  border-radius: 1px;
+  border-radius: 2px;
+  filter: grayscale(60%);
 }
 
 h1 {
@@ -161,25 +139,30 @@ h1 {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 3rem;
+  font-size: 3.2rem;
   line-height: 1.1;
   text-align: center;
 }
 
 h2 {
   color: var(--main-h2-color);
-  text-align: left;
+  text-align: center;
   margin-top: 40px;
   margin-bottom: 30px;
-  font-size: 1.3rem;
-  /* padding-left: 30px; */
+  font-size: 2rem;
+
 }
 
 h3 {
-  color: var(--main-h2-color);
+  color: var(--main-h3-color);
+  font-family: "Shree Devanagari 714";
+  text-transform: uppercase;
   text-align: center;
   padding: 0;
   margin-bottom: 0px;
+  font-size: 0.9rem;
+  letter-spacing: 3px;
+  
 }
 
 p {
@@ -218,5 +201,3 @@ body {
   font-feature-settings: "kern", "liga", "clig", "calt";
 }
 
-
-/* @import "./mobile.css"; */
