@@ -1,0 +1,392 @@
+:root {
+  --header-width: 20%;
+  --header-height-mini: 230px;
+  --header-bg-color: var(--one-colour);
+  --secon-bg-color: var(--one-colour);
+
+  --one-colour: #e8edf3;
+  --main-text-color: #22264b;   
+  --main-h1-color: #e6cf8b;
+  --ahover-color: #b56969;
+  --main-h2-color: #0C3256;
+  --ahover2-color: #e6af4b;
+
+}
+
+header {
+  height: 100%;
+  left: 0;
+  padding: 25px;
+  padding-top: 13%;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  background: var(--header-bg-color);
+  width: var(--header-width);
+  overflow: auto;
+}
+
+main {
+  margin-left: var(--header-width);
+  background: var(--secon-bg-color);
+  padding: 8%;
+  padding-right: 18%;
+  padding-top: 12%;
+  margin-bottom: 60vh;
+}
+
+span {
+  color: var(--span-color);
+}
+
+footer {
+  margin-left: var(--header-width);
+  position: fixed;
+  bottom: 0;
+}
+
+ul {
+  padding-inline-start: 20px;
+}
+
+.navitem {
+  text-transform: uppercase;
+  font-family: Roboto;
+  display: flex;
+  flex-direction: column;
+}
+
+.navitem li, ul.navitem, ul.icons {
+    padding: 0;
+    line-height: 2;
+}
+
+.navitem li, ul.navitem{
+  font-size: 1.3rem;
+}
+
+.navitem a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+    border-bottom: none;
+}
+
+.navitem .menuactive {
+  font-weight: 600;
+  /* text-decoration: underline; */
+  position:relative;
+  text-align:center;
+}
+
+/* Menu marker on active menu-choice */
+.navitem .menuactive:before {
+  content:"";
+  display:block;
+  width:0;
+  border:5px solid #22264b;
+  border-color: transparent  transparent transparent #22264b;
+  position:absolute;
+  top:30%;
+  left:0%;
+  margin-left:-10px;
+}
+
+.icons {
+  border-bottom: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+
+.icons a, u, .icons li, .navitem > li {
+  display: inline-block;
+  padding: 0px;
+  border-bottom: none;
+}
+
+.inner {
+  text-align: right;
+}
+
+a {
+  color: var(--header-nav-color);
+}
+
+a:hover{
+  color: var(--ahover-color);
+}
+
+.content>p>a {
+  text-decoration: underline;
+}
+
+.content>p>a:hover{
+  text-decoration: none;
+}
+
+.avatar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: auto;
+  border-radius: 1px;
+}
+
+h1 {
+  margin-left: 0;
+  margin-top: 0;
+  margin-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  margin-bottom: 4rem;
+  color: var(--main-h1-color);
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-weight: bold;
+  text-rendering: optimizeLegibility;
+  font-size: 3rem;
+  line-height: 1.1;
+  text-align: center;
+}
+
+h2 {
+  color: var(--main-h2-color);
+  text-align: left;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  /* padding-left: 30px; */
+}
+
+h3 {
+  color: var(--main-h2-color);
+  text-align: center;
+  padding: 0;
+  margin-bottom: 0px;
+}
+
+p {
+  padding: 0px 0 10px 0;
+  overflow: hidden;
+}
+
+p img {
+  width: 50%;
+  max-width: 600px;
+  padding: 20px 0 0px;
+}
+
+p img#odd {
+  float: right;
+}
+
+/*  Rensa bland html och body! */
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  font: 18px georgia, serif;
+  box-sizing: border-box;
+  overflow-y: scroll;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--main-text-color);
+  background: var(--secon-bg-color);
+  font-family: georgia, serif;
+  font-weight: normal;
+  word-wrap: break-word;
+  font-kerning: normal;
+  -moz-font-feature-settings: "kern", "liga", "clig", "calt";
+  -ms-font-feature-settings: "kern", "liga", "clig", "calt";
+  -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
+  font-feature-settings: "kern", "liga", "clig", "calt";
+}
+
+@media screen and (min-width: 1150px){
+  
+  header {
+    width: 230px;
+    padding-top: 145px;
+    left: 10%;
+  }
+  
+  main {
+    width: 600px;
+    padding-left: 17%;
+    padding-right: 0px;
+    margin-left: 230px;
+    margin-right: 200px;
+    padding-top: 135px;
+  }
+  
+  .icons {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (min-width: 1350px){
+  main {
+    width: 42%;
+    padding-left: 22vw;
+  }
+}
+
+@media screen and (max-width: 1149px){
+  
+  header {
+    left: 3%;
+  }
+
+  main {
+    padding-left: 10%;
+  }
+
+  .icons {
+    font-size: 1.6rem;
+  }
+
+  .navitem li{
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 900px){
+  header {
+    left: 0;
+  }
+}
+
+/* 
+                                            MOBILE DEVICE & BOTTOM MENU BAR 
+*/
+
+@media screen and (max-width: 720px){
+
+  .navitem li, ul.navitem, ul.icons {
+    line-height: 1.2;
+  }
+
+  #socials {
+    padding-top: 5%;
+  }
+
+  .icons {
+    margin: 0;
+    justify-content: space-evenly;
+    padding: 0 20%;
+  }
+
+  .navitem {
+    margin: 0;
+    margin-top: 4%;
+    margin-bottom: 0px;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+  }
+
+  .avatar{
+    float: left;
+    width: 22%;
+  }
+
+  header {
+    height: auto;
+    width: 100%;
+    bottom: 0px;
+    top: auto;
+    overflow: hidden;
+    padding: 0px;
+    left: 0;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
+
+  main {
+    left: 0px;
+    margin-top: 0;
+    margin-left: 0;
+    padding: 12%;
+    margin-bottom: 60vh;
+  }
+
+  footer {
+      margin-left: 0;
+      display: none;
+  }
+
+  /* h2 {
+    padding-left: 0px;
+  } */
+
+    /* Change menu marker to above the active item  */
+  .navitem .menuactive:before{
+    border-color: #22264b  transparent  transparent transparent;
+    top:-40%;
+    left:50%;
+    margin-left:-5px;
+  }
+}
+
+@media screen and (max-width: 580px){
+
+  .icons {
+    font-size: 1.5rem;
+  }
+  .navitem {
+    margin-top: 1.5vh;
+  }
+  
+  .navitem li, ul.navitem {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 410px){
+  
+  .icons {
+    font-size: 1.3rem;
+  }
+  .navitem{
+    margin-top: 1vh;
+  }
+  .navitem li, ul.navitem {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 330px){
+  .navitem{
+    margin-top: 0.3vh;
+  }
+}
+
+@media screen and (max-width: 310px){
+  
+  .icons {
+    font-size: 1rem;
+  }
+
+  .navitem li, ul.navitem {
+    font-size: 0.6rem;
+  }
+  
+  .navitem{
+    margin-top: 0.2vh;
+  }
+}
+
+@media screen and (max-width: 254px){
+
+  .icons {
+    font-size: 0.7rem;
+  }
+
+  .navitem li, ul.navitem{
+    font-size: 0.4rem;
+  }
+}
