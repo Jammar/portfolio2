@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 
 import SEO from "../components/seo"
-// import Socials from "../components/Socials"
+import Socials from "../components/Socials"
 import avatar from "../assets/images/profo-el-pictuehero.png"
 
 const IndexPage = () => (
@@ -50,7 +50,7 @@ const IndexPage = () => (
         more about how I made this site and my thought process designing it.
     </p> */}
   </div>
-  {/* <Socials /> */}
+  <Socials />
   </Layout>
 )
 

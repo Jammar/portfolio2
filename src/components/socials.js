@@ -13,7 +13,7 @@ class Socials extends React.Component {
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="mailto:joachim@hideaddress.net">
                             <MdEmail />
                         </a>
                     </li>
