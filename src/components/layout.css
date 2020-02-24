@@ -24,6 +24,10 @@ main {
   background: var(--secon-bg-color);
 }
 
+.welcome {
+  padding: 75px 0 0 0;
+}
+
 .content {
   font-family: var(--content-font);
   width: 70%;
@@ -131,7 +135,7 @@ span.ingress {
   text-align: center;
 }
 
-.navbar .menuactive {
+.menuactive {
   text-decoration: underline;
 }
 
@@ -152,6 +156,7 @@ span.ingress {
 
 a {
   color: var(--header-nav-color);
+  display: inline-block;
 }
 
 a:hover{
@@ -168,7 +173,8 @@ a:hover{
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 40px;
-  width: 250px;
+  width: 70%;
+  max-width: 250px;
   height: auto;
   border-radius: 2px;
   filter: grayscale(60%);

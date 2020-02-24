@@ -3,54 +3,15 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import ProBar from "../components/ProBar"
+import NavBar from "../components/NavBar"
 // import Image1 from "../images/accessible-colors.jpg"
 
 const BuildersPage = () => (
   <Layout>
     <SEO title="The Builders projects" />
-    <div className='navbar'>
-      <ul>
-          <li>
-            <Link to="/">
-              Home
-            </Link>
-          </li>
-          <li>
-            <Link to="/joachim/">
-              Who is
-            </Link>    
-          </li>
-          <li className="menuactive">
-            <Link to="/projects/">
-              Which projects
-            </Link>    
-          </li>
-          <li>
-            <Link to="/about/">
-              What about
-            </Link>
-          </li>
-      </ul>
-    </div>
-    <div className='navbar probar'>
-      <ul>
-          <li>
-            <Link to="/potter/">
-              Potter
-            </Link>
-          </li>
-          <li>
-            <Link to="/clowns/">
-              Clowns
-            </Link>    
-          </li>
-          <li className="menuactive">
-            <Link to="/builders/">
-              Builders
-            </Link>    
-          </li>
-      </ul>
-    </div>
+    <NavBar />
+    <ProBar />
     <div className="content">
       <h1>The Builders projects</h1>
       <div className="ingress">
