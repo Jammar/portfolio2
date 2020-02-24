@@ -10,19 +10,30 @@ import avatar from "../assets/images/profo-el-pictuehero.png"
 const IndexPage = () => (
   <Layout>
     <SEO title="Joachim" />
-  <div className='navbar'>
-    <ul>
-        <li>
-          <Link to="./">
-            Home
-          </Link>
-        </li>
-        <li>/</li>
-        <li className="menuactive">
-            Joachim
-        </li>
-    </ul>
-  </div>
+    <div className='navbar'>
+      <ul>
+          <li>
+            <Link to="/">
+              Home
+            </Link>
+          </li>
+          <li className="menuactive">
+            <Link to="/joachim/">
+              Who is
+            </Link>    
+          </li>
+          <li>
+            <Link to="/projects/">
+              Which projects
+            </Link>    
+          </li>
+          <li>
+            <Link to="/about/">
+              What about
+            </Link>
+          </li>
+      </ul>
+    </div>
   <div className="content">
     <h1>This is Joachim</h1>
     <img className="avatar" src={avatar} alt="" />

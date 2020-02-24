@@ -6,7 +6,7 @@ const MainMenu = ({ siteTitle }) => (
   <div className='mainmenu'>
     <ul>
         <li>
-          <Link to="/joachim">
+          <Link to="/joachim/">
             Who is Joachim
           </Link>
         </li>

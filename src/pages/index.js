@@ -8,14 +8,14 @@ import MainMenu from "../components/MainMenu"
 const IndexPage = () => (
   <Layout>
       <div className='navbar'>
-        <ul>
+        {/* <ul>
           <li>
             <Link to="/">
               Home
             </Link>
           </li>
           <li>/</li>
-        </ul>
+        </ul> */}
       </div>
     {/* <NavBar /> */}
     <SEO title="Home" />

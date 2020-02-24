@@ -12,6 +12,7 @@ const NavBar = ({ siteTitle }) => (
         </li>
         <li>
         /
+        </li>
         <li>
           <Link to="/projects/">
             Projects

@@ -15,9 +15,20 @@ const AboutPage = () => (
               Home
             </Link>
           </li>
-          <li>/</li>
+          <li>
+            <Link to="/joachim/">
+              Who is
+            </Link>    
+          </li>
+          <li>
+            <Link to="/projects/">
+              Which projects
+            </Link>    
+          </li>
           <li className="menuactive">
-              About
+          <Link to="/about/">
+              What about
+            </Link>
           </li>
       </ul>
     </div>
