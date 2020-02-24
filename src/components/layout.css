@@ -1,5 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Cousine|Lato:300|Vidaloka|Libre+Baskerville:400,400i,700&display=swap');
-/*Tried: Abhaya+Libre|Cantata+One|Merriweather:300|Nanum+Gothic+Coding|Cormorant:300+700|PT+Mono|Prata|GFS+Didot| */
+@import url('https://fonts.googleapis.com/css?family=Lato:300|Libre+Baskerville:400,400i,700&display=swap');
+/*
+Fonts also useful: Vidaloka|Cousine|
+Tried: Abhaya+Libre|Cantata+One|Merriweather:300|Nanum+Gothic+Coding|Cormorant:300+700|PT+Mono|Prata|GFS+Didot| 
+*/
+
 :root {
   --header-bg-color: var(--one-colour);
   --secon-bg-color: var(--one-colour); 
@@ -10,15 +14,10 @@
   --main-h2-color: black;
   --main-h3-color: rgb(33, 41, 54);
 
-  --content-font: "Libre Baskerville" /* org "Goudy Old Style" */;
-  --mainmenu-font: "Lato" /* org "Shree Devanagari 714" */;
-  --navbar-font: "Lato"/* org "Eurostile" */;
-  --h1-font: 'Libre Baskerville';
-
-  /* --content-font: "Libre Baskerville";
+  --content-font: "Libre Baskerville";
   --mainmenu-font: "Lato";
-  --navbar-font: "Cousine";
-  --h1-font: 'Vidaloka'; */
+  --navbar-font: "Lato";
+  --h1-font: 'Libre Baskerville';
 }
 
 main {
@@ -33,7 +32,6 @@ main {
   font-size: 1rem;
   letter-spacing: 0.2px;
   line-height: 1.4;
-  /* font-weight: 300; */
 }
 
 .content ul{
@@ -70,13 +68,14 @@ main {
 }
 
 .navbar{
-  padding: 50px 0 0 30px; /* 30px instead of removing padding on last item */
+  padding: 50px 0 0 0; /* 30px instead of removing padding on last item */
   letter-spacing: 1px;
   text-align: center;
+  line-height: 2;
 }
 
 .probar{
-  padding: 10px 0 0 30px;
+  padding: 10px 0 0 0;
 }
 
 .socials {
@@ -108,10 +107,20 @@ a:hover, a:visited, a:link, a:active {
 
 p a, .navbar ul, .navbar li{
   display: inline;
-  padding: 0px 15px 0px 0px;
   font-family: var(--navbar-font);
   text-transform: uppercase;
-  font-size: 1rem;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li{
+  padding: 20px 15px 0px 0px;
+}
+li:last-child{
+  padding-right: 0px;
 }
 
 span.ingress {
@@ -236,4 +245,3 @@ body {
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
 }
-

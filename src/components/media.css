@@ -15,3 +15,55 @@
     width: 40%;
   }
 }
+
+@media screen and (max-width: 580px){
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  .navbar {
+    font-size: 0.8rem;
+  }
+
+  .mainmenu, .promenu{
+    font-size: 1.2rem;
+  }
+
+  .content {
+    font-size: 0.9rem;
+  }
+
+}
+
+@media screen and (max-width: 410px){
+
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+
+  h3 {
+    font-size: 0.6rem;
+  }
+
+  .navbar {
+    font-size: 0.6rem;
+  }
+
+  .mainmenu, .promenu{
+    font-size: 1rem;
+  }
+
+  .content {
+    font-size: 0.8rem;
+  }
+
+}
