@@ -3,7 +3,6 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import NavBar from "../components/NavBar"
-import Socials from "../components/Socials"
 import avatar from "../assets/images/profo-el-pictuehero.png"
 
 const IndexPage = () => (
@@ -26,7 +25,7 @@ const IndexPage = () => (
         more about how I made this site and my thought process designing it.
     </p> */}
   </div>
-  <Socials />
+
   </Layout>
 )
 
