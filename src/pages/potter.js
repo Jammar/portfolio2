@@ -53,9 +53,9 @@ const PotterPage = () => (
     </div>
     <div className="content">
       <h1>The Potter project</h1>
-      <span className="ingress">
+      <div className="ingress">
         Soon™ to be updated :) 
-      </span>
+      </div>
       <div id="row">
         <div className="column">
         </div>

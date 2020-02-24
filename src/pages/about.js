@@ -34,9 +34,9 @@ const AboutPage = () => (
     </div>
     <div className="content">
       <h1>This is about the site</h1> {/* <h1>Well this site...</h1> */}
-      <span className="ingress">
+      <div className="ingress">
         The idea with this page is to describe this site and the ideas put into making it.
-      </span>
+      </div>
       <div id="row">
         <div className="column">
           <p>

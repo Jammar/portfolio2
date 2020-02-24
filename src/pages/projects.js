@@ -34,9 +34,9 @@ const ProjectPage = () => (
     </div>
     <div className="content">
       <h1>These are his projects</h1>
-        <span className="ingress">
+        <div className="ingress">
           All of these projects have been team efforts.
-        </span>
+        </div>
     </div>       
   <ProMenu /> 
   </Layout>

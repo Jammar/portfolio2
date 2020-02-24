@@ -37,9 +37,9 @@ const IndexPage = () => (
   <div className="content">
     <h1>This is Joachim</h1>
     <img className="avatar" src={avatar} alt="" />
-    <span className="ingress">
+    <div className="ingress">
       A Bachelor of Computer Science with <span>a focus on interaction design</span>.
-    </span>
+    </div>
     < br/><br/>
     <p>
       I like to think, discuss and criticise UX as well as usability and accessability. But I also really like to code.

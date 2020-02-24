@@ -53,9 +53,9 @@ const ClownsPage = () => (
     </div>
     <div className="content">
       <h1>The Clowns project</h1>
-      <span className="ingress">
+      <div className="ingress">
         Soon™ to be updated :) 
-      </span>
+      </div>
       <div id="row">
         <div className="column">
         </div>

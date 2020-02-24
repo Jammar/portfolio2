@@ -117,6 +117,10 @@ p a, .navbar ul, .navbar li{
 span.ingress {
   font-style: italic;
 }
+.ingress {
+  font-style: italic;
+  text-align: center;
+}
 
 .navbar .menuactive {
   text-decoration: underline;
