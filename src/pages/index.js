@@ -7,17 +7,6 @@ import MainMenu from "../components/MainMenu"
 
 const IndexPage = () => (
   <Layout>
-      <div className='navbar'>
-        {/* <ul>
-          <li>
-            <Link to="/">
-              Home
-            </Link>
-          </li>
-          <li>/</li>
-        </ul> */}
-      </div>
-    {/* <NavBar /> */}
     <SEO title="Home" />
     <h1>Välkommen</h1>
     <MainMenu />
