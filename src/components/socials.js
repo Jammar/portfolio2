@@ -1,6 +1,6 @@
+import React from "react"
 import { IoLogoGithub } from 'react-icons/io';
 import { MdEmail } from 'react-icons/md';
-import React from "react"
 
 const Socials = () => (
     <div className="socials">
