@@ -10,7 +10,7 @@ const JoachimPage = () => (
   <Layout>
     <SEO title="Joachim" />
     <NavBar />
-    <Icons />
+
     <div className="content">
       <h1>This is Joachim</h1>
       <img className="avatar" src={avatar} alt="" />
@@ -23,6 +23,7 @@ const JoachimPage = () => (
         Welcome to my simple page!
       </p>
     </div>
+    <Icons />
   </Layout>
 )
 
