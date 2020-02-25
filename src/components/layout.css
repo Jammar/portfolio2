@@ -28,6 +28,10 @@ main {
   padding: 75px 0 0 0;
 }
 
+.container {
+  padding-bottom: 5%;
+}
+
 .content {
   font-family: var(--content-font);
   width: 70%;

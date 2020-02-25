@@ -3,17 +3,13 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import NavBar from "../components/NavBar"
-// import Image1 from "../images/accessible-colors.jpg"
 
 const AboutPage = () => (
   <Layout>
     <SEO title="About" />
     <NavBar />
     <div className="content">
-      <h1>This is about the site</h1> {/* <h1>Well this site...</h1> */}
-      <div className="ingress">
-        The idea with this page is to describe this site and the ideas put into making it.
-      </div>
+      <h1>This is about the site</h1>
       <div id="row">
         <div className="column">
           <p>

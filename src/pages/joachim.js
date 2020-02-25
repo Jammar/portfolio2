@@ -10,7 +10,6 @@ const JoachimPage = () => (
   <Layout>
     <SEO title="Joachim" />
     <NavBar />
-
     <div className="content">
       <h1>This is Joachim</h1>
       <img className="avatar" src={avatar} alt="" />
