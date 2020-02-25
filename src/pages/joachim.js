@@ -3,13 +3,14 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import NavBar from "../components/NavBar"
+import Icons from "../components/Icons"
 import avatar from "../assets/images/profo-el-pictuehero.png"
-import Socials from "../components/Socials"
 
 const JoachimPage = () => (
   <Layout>
     <SEO title="Joachim" />
     <NavBar />
+    <Icons />
     <div className="content">
       <h1>This is Joachim</h1>
       <img className="avatar" src={avatar} alt="" />
@@ -22,7 +23,6 @@ const JoachimPage = () => (
         Welcome to my simple page!
       </p>
     </div>
-    <Socials />
   </Layout>
 )
 
