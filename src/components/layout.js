@@ -13,6 +13,7 @@ import PropTypes from "prop-types"
 import "./normalize.css"
 import "./layout.css"
 import "./media.css"
+import "../assets/css/font-awesome.min.css";
 
 const Layout = ({ children }) => {
   // const data = useStaticQuery(graphql`

@@ -148,6 +148,10 @@ span.ingress {
   font-size: 2rem;
 }
 
+.label {
+  display: none;
+}
+
 .icons a, u, .icons li, .navitem > li {
   display: inline-block;
   padding: 0px;
