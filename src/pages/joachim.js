@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import NavBar from "../components/NavBar"
 import avatar from "../assets/images/profo-el-pictuehero.png"
+import Socials from "../components/Socials"
 
 const IndexPage = () => (
   <Layout>
@@ -25,7 +26,7 @@ const IndexPage = () => (
         more about how I made this site and my thought process designing it.
     </p> */}
   </div>
-
+  <Socials />
   </Layout>
 )
 
