@@ -189,7 +189,7 @@ h1 {
   margin: 0 auto;
   padding: 0;
   margin-top: 2rem;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
   color: var(--main-h1-color);
   font-family: var(--h1-font);
   font-weight: 300;
@@ -203,7 +203,7 @@ h1 {
 h2 {
   color: var(--main-h2-color);
   text-align: center;
-  margin-top: 40px;
+  margin-top: 20px;
   margin-bottom: 30px;
   font-size: 1.5rem;
   font-weight: 300;
@@ -222,7 +222,7 @@ h3 {
 }
 
 p {
-  padding: 0px 0 10px 0;
+  padding: 0px 0 40px 0;
   overflow: hidden;
 }
 
