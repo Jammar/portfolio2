@@ -1,8 +1,7 @@
 import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import React from "react"
 
-const MainMenu = ({ siteTitle }) => (
+const MainMenu = () => (
   <div className='mainmenu'>
     <ul>
         <li>
@@ -23,13 +22,5 @@ const MainMenu = ({ siteTitle }) => (
     </ul>
   </div>
 )
-
-MainMenu.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-MainMenu.defaultProps = {
-  siteTitle: ``,
-}
 
 export default MainMenu

@@ -1,8 +1,7 @@
 import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import React from "react"
 
-const NavBar = ({ siteTitle }) => (
+const NavBar = () => (
 <div className='navbar'>
       <ul>
           <li>
@@ -28,13 +27,5 @@ const NavBar = ({ siteTitle }) => (
       </ul>
     </div>
 )
-
-NavBar.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-NavBar.defaultProps = {
-  siteTitle: ``,
-}
 
 export default NavBar
