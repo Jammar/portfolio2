@@ -1,9 +1,9 @@
 import React from "react"
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import ProBar from "../components/ProBar"
-import NavBar from "../components/NavBar"
+import Layout from "../../components/layout"
+import SEO from "../../components/seo"
+import ProBar from "../../components/ProBar"
+import NavBar from "../../components/NavBar"
 
 const PotterPage = () => (
   <Layout>

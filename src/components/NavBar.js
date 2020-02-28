@@ -15,7 +15,10 @@ const NavBar = () => (
             </Link>
           </li>
           <li className="menuactive">
-            <Link activeStyle={{ textDecoration: 'underline' }} to="/projects/">
+            <Link 
+              activeStyle={{ textDecoration: 'underline' }} 
+              partiallyActive={true}
+              to="/projects/">
               Which projects
             </Link>
           </li>

@@ -5,17 +5,17 @@ const ProjectMenu = () => (
   <div className='promenu'>
     <ul>
         <li>
-          <Link to="/potter/">
+          <Link to="/projects/potter/">
             Potter
           </Link>
         </li>
         <li>
-          <Link to="/clowns/">
+          <Link to="/projects/clowns/">
             Clowns
           </Link>
         </li>
         <li>
-          <Link to="/builders/">
+          <Link to="/projects/builders/">
             Builders
           </Link>
         </li>
