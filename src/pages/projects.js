@@ -11,11 +11,6 @@ const ProjectPage = () => (
     <NavBar />
       <h1>These are his projects</h1>
     <ProMenu />
-    <div className="content">
-    <div className="ingress">
-      All of these projects have been team efforts.
-    </div>       
-    </div>
   </Layout>
 )
 

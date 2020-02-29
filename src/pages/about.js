@@ -9,7 +9,7 @@ const AboutPage = () => (
     <SEO title="About" />
     <NavBar />
     <div className="content">
-      <h1>This is about the site</h1>
+      <h1>This is the about this site</h1>
       <div id="row">
         <div className="column">
           <p>

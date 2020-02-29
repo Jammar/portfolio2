@@ -14,13 +14,8 @@ const JoachimPage = () => {
     <div className="content">
       <h1>This is Joachim</h1>
         <Avatar />
-      <div className="ingress">
-        A Bachelor of Computer Science with <span>a focus on interaction design</span>.
-      </div>
-      < br/><br/>
       <p>
-        I like to think, discuss and criticise UX as well as usability and accessability. But I also really like to code.
-        Welcome to my simple page!
+        I'm an interaction designer and developer who likes to think, discuss and criticise UX. But I also really like to code. Welcome to my simple page!
       </p>
     </div>
     <Icons />
