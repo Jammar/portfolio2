@@ -5,7 +5,7 @@ import { useStaticQuery, graphql } from "gatsby"
 const Avatar = () => {
     const data = useStaticQuery(graphql`
     query {
-      image: file(relativePath: {eq: "profo-el-pictuehero.png"}){
+      image: file(relativePath: {eq: "profo-el-pictuehero.jpg"}){
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid
@@ -19,7 +19,6 @@ const Avatar = () => {
         <div className="avatar">
             <Img 
                 fluid={data.image.childImageSharp.fluid} 
-                durationFadeIn="5000" 
                 alt="Picture of Joachim the hero" />
         </div>
     )
