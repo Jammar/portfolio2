@@ -19,15 +19,15 @@ const JoachimPage = () => {
       </p>
     </div>
     <Icons 
-      props={[{
+      details={[{
         key:"githubIcon",
         anchor:"https://github.com/Jammar",
-        iconClass:"fa fa-github",
+        className:"fa fa-github",
         text:"Link to github page"
       },{
         key:"mailIcon",
         anchor: "mailto:joachim@hideaddress.net",
-        iconClass: "fa fa-at", 
+        className: "fa fa-at", 
         text: "Mailto-link to write email to the author"}]}
     />
   </Layout>

@@ -1,25 +1,16 @@
 import React from "react"
 
-function Icons({ props }) {
-
-    let listedIcons = props.map(prop => {
-        return (
-            <li key={prop.key}>
-                <a href={ prop.anchor } className={prop.iconClass} alt={prop.text}>
-                <span className="label">{prop.text}</span>
-                </a>
-            </li> 
+const Icons = ({ details }) => {
+  const listedIcons = details.map(icon => {
+    const { key, anchor, className, text } = icon;
+      return (
+        <li key={key}>
+            <a href={ anchor } className={className}>
+              <span className="label">{text}</span>
+            </a>
+        </li> 
     )});
-    
-
-return (
-    
-    <div className="socials">
-    <ul className="icons">
-        { listedIcons }
-    </ul>
-  </div>
-)
+return <div className="socials"><ul className="icons">{ listedIcons }</ul></div>
 }
 
 export default Icons
