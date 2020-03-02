@@ -11,7 +11,7 @@ const NavBar = () => (
           </li>
           <li>
             <Link activeStyle={{ textDecoration: 'underline' }} to="/joachim/">
-              Who is
+              Who <span className="mobileNoShow">is</span>
             </Link>
           </li>
           <li className="menuactive">
@@ -19,12 +19,12 @@ const NavBar = () => (
               activeStyle={{ textDecoration: 'underline' }} 
               partiallyActive={true}
               to="/projects/">
-              Which projects
+              <span className="mobileNoShow">Which</span> projects
             </Link>
           </li>
           <li>
             <Link activeStyle={{ textDecoration: 'underline' }} to="/about/">
-              What about
+            <span className="mobileNoShow">What</span> about
             </Link>
           </li>
       </ul>
