@@ -22,11 +22,6 @@ const NavBar = () => (
               <span className="mobileNoShow">Which</span> projects
             </Link>
           </li>
-          <li>
-            <Link activeStyle={{ textDecoration: 'underline' }} to="/about/">
-            <span className="mobileNoShow">What</span> about
-            </Link>
-          </li>
       </ul>
     </div>
 )

@@ -5,13 +5,13 @@ import SEO from "../../components/seo"
 import ProBar from "../../components/ProBar"
 import NavBar from "../../components/NavBar"
 
-const PotterPage = () => (
+const YounaiPage = () => (
   <Layout>
-    <SEO title="The Potter project" />
+    <SEO title="The Younai project" />
     <NavBar />
     <ProBar />
     <div className="content">
-      <h1>The Potter project</h1>
+      <h1>Projects with Younai</h1>
       <div className="ingress">
         Soon™ to be updated :) 
       </div>
@@ -23,4 +23,4 @@ const PotterPage = () => (
   </Layout>
 )
 
-export default PotterPage
+export default YounaiPage

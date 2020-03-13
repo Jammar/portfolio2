@@ -5,18 +5,18 @@ const ProBar = () => (
   <div className='navbar probar'>
     <ul>
         <li>
-          <Link activeStyle={{ textDecoration: 'underline' }} to="/projects/potter/">
-            Potter
+          <Link activeStyle={{ textDecoration: 'underline' }} to="/projects/thissite/">
+            This <span className="mobileNoShow">site</span>
           </Link>
         </li>
         <li>
-          <Link activeStyle={{ textDecoration: 'underline' }} to="/projects/clowns/">
-            Clowns
-          </Link>    
+          <Link activeStyle={{ textDecoration: 'underline' }} to="/projects/younai/">
+            Younai
+          </Link>
         </li>
         <li>
-          <Link activeStyle={{ textDecoration: 'underline' }} to="/projects/builders/">
-            Builders
+          <Link activeStyle={{ textDecoration: 'underline' }} to="/projects/countingonwords/">
+            Counting <span className="mobileNoShow">Onwords</span>
           </Link>    
         </li>
     </ul>

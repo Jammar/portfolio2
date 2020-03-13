@@ -3,7 +3,6 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import NavBar from "../components/NavBar"
-import Icons from "../components/Icons"
 import Avatar from "../components/Avatar"
 
 const JoachimPage = () => {
@@ -15,21 +14,12 @@ const JoachimPage = () => {
       <h1>This is Joachim</h1>
         <Avatar />
       <p>
-        I'm an interaction designer and developer who likes to think, discuss and criticise UX. But I also really like to code. Welcome to my simple page!
+        An interaction designer and developer who likes to think, discuss and criticise UX... but sometimes just wants code. 
       </p>
+      <div className="ingress">
+      Welcome to this very simple page!
+      </div>
     </div>
-    <Icons 
-      details={[{
-        key:"githubIcon",
-        anchor:"https://github.com/Jammar",
-        className:"fa fa-github",
-        text:"Link to github page"
-      },{
-        key:"mailIcon",
-        anchor: "mailto:joachim@hideaddress.net",
-        className: "fa fa-at", 
-        text: "Mailto-link to write email to the author"}]}
-    />
   </Layout>
   )
 }

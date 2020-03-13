@@ -5,13 +5,13 @@ import SEO from "../../components/seo"
 import ProBar from "../../components/ProBar"
 import NavBar from "../../components/NavBar"
 
-const ClownsPage = () => (
+const CountingOnwordsPage = () => (
   <Layout>
-    <SEO title="The Clowns project" />
+    <SEO title="The Counting Onwords project" />
     <NavBar />
     <ProBar />
     <div className="content">
-      <h1>The Clowns project</h1>
+      <h1>Counting Onwords</h1>
       <div className="ingress">
         Soon™ to be updated :) 
       </div>
@@ -23,4 +23,4 @@ const ClownsPage = () => (
   </Layout>
 )
 
-export default ClownsPage
+export default CountingOnwordsPage
