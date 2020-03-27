@@ -14,11 +14,11 @@ const ProjectMenu = () => {
             This site
           </Link>
         </li>
-        <li style={styleFadeTwo}>
+{/*         <li style={styleFadeTwo}>
           <Link to="/projects/younai/">
             Projects with Younai
           </Link>
-        </li>
+        </li> */}
         <li style={styleFadeThree}>
           <Link to="/projects/countingonwords/">
             Counting onwords

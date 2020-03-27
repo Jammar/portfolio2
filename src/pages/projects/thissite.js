@@ -4,6 +4,7 @@ import Layout from "../../components/layout"
 import SEO from "../../components/seo"
 import ProBar from "../../components/ProBar"
 import NavBar from "../../components/NavBar"
+import Icons from "../../components/Icons"
 
 const ThisSitePage = () => (
   <Layout>
@@ -13,6 +14,14 @@ const ThisSitePage = () => (
     <header>
       <h1>This is this site</h1>
     </header>
+    <Icons 
+      details={[{
+        key:"githubIcon",
+        anchor:"https://github.com/Jammar/portfolio2",
+        className:"fa fa-github",
+        text:"Link to github source page"
+      }]}
+    />
     <div className="content">
       <div id="row">
         <div className="column">

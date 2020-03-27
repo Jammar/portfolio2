@@ -1,6 +1,7 @@
 TODO.md
 bak
 public
+hidden
 
 .vscode/*
 !.vscode/settings.json

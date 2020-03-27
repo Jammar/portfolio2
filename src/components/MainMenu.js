@@ -21,17 +21,19 @@ const MainMenu = () => {
         </li>
     </ul>
     <Icons 
-      style={styleFadeThree}
+      ulStyle={styleFadeThree}
       details={[{
         key:"githubIcon",
         anchor:"https://github.com/Jammar",
         className:"fa fa-github",
-        text:"Link to github page"
+        text:"Link to github page",
+        iconStyle: {fontSize: "2.2rem"}
       },{
         key:"mailIcon",
         anchor: "mailto:joachim@hideaddress.net",
-        className: "smallerIcon fa fa-envelope", 
-        text: "Mailto-link to write email to the author"}]}
+        className: "fa fa-envelope", 
+        text: "Mailto-link to write email to the author",
+        iconStyle: {paddingTop: "0.1rem"}}]}
     />
   </div>
 }
