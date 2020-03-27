@@ -1,10 +1,10 @@
 import React from "react"
 
-const Icons = ({ details }) => {
+const Icons = ({ details, style }) => {
   const listedIcons = details.map(icon => {
     const { key, anchor, className, text } = icon;
       return (
-        <li key={key}>
+        <li key={key} style={style}>
             <a href={ anchor } className={className}>
               <span className="label">{text}</span>
             </a>

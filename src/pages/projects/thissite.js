@@ -10,8 +10,10 @@ const ThisSitePage = () => (
     <SEO title="About this site" />
     <NavBar />
     <ProBar />
-    <div className="content">
+    <header>
       <h1>This is this site</h1>
+    </header>
+    <div className="content">
       <div id="row">
         <div className="column">
           <p>

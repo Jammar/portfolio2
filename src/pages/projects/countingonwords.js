@@ -10,8 +10,10 @@ const CountingOnwordsPage = () => (
     <SEO title="The Counting Onwords project" />
     <NavBar />
     <ProBar />
-    <div className="content">
+    <header>
       <h1>Counting Onwords</h1>
+    </header>
+    <div className="content">
       <div className="ingress">
         Soon™ to be updated :) 
       </div>

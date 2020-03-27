@@ -10,8 +10,10 @@ const JoachimPage = () => {
     <Layout>
     <SEO title="Joachim" />
     <NavBar />
-    <div className="content">
+    <header>
       <h1>This is Joachim</h1>
+    </header>
+    <div className="content">
         <Avatar />
       <p>
         An interaction designer and developer who likes to think, discuss and criticise UX... but sometimes just wants code. 
