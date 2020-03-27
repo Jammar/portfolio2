@@ -2,7 +2,7 @@ import React from "react"
 
 const Icons = ({ details, ulStyle }) => {
   
-  if (!ulStyle) ulStyle={animation: "fadein 2.1s"};
+  if (!ulStyle) ulStyle={animation: "fadein 1.4s cubic-bezier(.84,0,.77,.18)"};
   const listedIcons = details.map(icon => {
     const { key, anchor, className, text, iconStyle } = icon;
       return (

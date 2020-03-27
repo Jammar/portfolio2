@@ -46,7 +46,7 @@ body {
   font-size: 1rem;
   letter-spacing: 0.2px;
   line-height: 1.4;
-  animation: fadein 0.7s;
+  animation: fadein 0.7s ease-in;
 }
 
 /* Fadein, style also used in ProMenu and MainMenu components */

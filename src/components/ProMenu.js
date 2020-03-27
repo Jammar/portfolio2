@@ -5,7 +5,7 @@ const ProjectMenu = () => {
 
   const styleFadeOne = {animation: "fadein 0.7s"};
   const styleFadeTwo = {animation: "fadein 1.4s"};
-  const styleFadeThree = {animation: "fadein 2.1s"};
+/*   const styleFadeThree = {animation: "fadein 2.1s"}; */
 
   return <div className='promenu'>
     <ul>
@@ -14,16 +14,16 @@ const ProjectMenu = () => {
             This site
           </Link>
         </li>
+        <li style={styleFadeTwo}>
+          <Link to="/projects/countingonwords/">
+            Counting onwords
+          </Link>
+        </li>
 {/*         <li style={styleFadeTwo}>
           <Link to="/projects/younai/">
             Projects with Younai
           </Link>
         </li> */}
-        <li style={styleFadeThree}>
-          <Link to="/projects/countingonwords/">
-            Counting onwords
-          </Link>
-        </li>
     </ul>
   </div>
 }
