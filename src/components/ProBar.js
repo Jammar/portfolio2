@@ -9,15 +9,15 @@ const ProBar = () => (
             This <span className="mobileNoShow">site</span>
           </Link>
         </li>
-{/*         <li>
-          <Link activeStyle={{ textDecoration: 'underline' }} to="/projects/younai/">
-            Younai
-          </Link>
-        </li> */}
         <li>
           <Link activeStyle={{ textDecoration: 'underline' }} to="/projects/countingonwords/">
             Counting <span className="mobileNoShow">Onwords</span>
           </Link>    
+        </li>
+        <li>
+          <Link activeStyle={{ textDecoration: 'underline' }} to="/projects/dropajob/">
+            Drop a job
+          </Link>
         </li>
     </ul>
   </div>
