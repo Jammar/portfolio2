@@ -6,7 +6,7 @@
   --main-h1-color: black;
   --main-h2-color: black;
   --main-h3-color: rgb(33, 41, 54);
-  --ahover-color: #b56969;
+  --ahover-color: darkred;
 
   --content-font: 'Libre Baskerville';
   --mainmenu-font: 'Lato';
@@ -194,9 +194,16 @@ a:hover {
   color: var(--ahover-color);
 }
 
+.content a {
+  transition: all 1s;
+  letter-spacing: 1;
+  box-shadow: 0 1px 0 darkred;
+}
+
 .content a:hover {
   color: var(--header-nav-color);
-  background-color: var(--ahover-color);
+  transition: all 1s;
+  box-shadow: 0 3px 0 darkred;
 }
 
 .avatar {
