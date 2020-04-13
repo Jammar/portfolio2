@@ -1,28 +1,27 @@
-import React from "react"
+import React from 'react'
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import NavBar from "../components/NavBar"
-import Avatar from "../components/Avatar"
+import Layout from '../components/layout'
+import SEO from '../components/seo'
+import NavBar from '../components/NavBar'
+import Avatar from '../components/Avatar'
 
 const JoachimPage = () => {
   return (
     <Layout>
-    <SEO title="Joachim" />
-    <NavBar />
-    <header>
-      <h1>This is Joachim</h1>
-    </header>
-    <div className="content">
+      <SEO title="Joachim" />
+      <NavBar />
+      <header>
+        <h1>This is Joachim</h1>
+      </header>
+      <div className="content">
         <Avatar />
-      <p>
-        An interaction designer and developer who likes to think, discuss and criticise UX... but sometimes just wants code. 
-      </p>
-      <div className="ingress">
-      Welcome to this very simple page!
+        <p>
+          An interaction designer and developer who likes to think, discuss and
+          criticise UX... but sometimes just wants code.
+        </p>
+        <div className="ingress">Welcome to this very simple page!</div>
       </div>
-    </div>
-  </Layout>
+    </Layout>
   )
 }
 
